@@ -65,13 +65,12 @@
 }
 .image {
     display: block;
+    width: 70%;
     min-width: 400px;
-    min-height: 400px;
-    background-image: url('img/1.png');
-    background-size: cover;
+    height: 400px;
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 15px 0;
+    margin: 15px;
 }
 .description {
     display: flex;
@@ -96,10 +95,7 @@
     .first-project {
         flex-direction: column;
     }
-    .image {
-        max-width: 200px;
-        max-height: 200px;
-    }
+   
      
 
 }
@@ -116,9 +112,6 @@
     .viewport {
         padding-top: 0;
     }
-    .image {
-        min-width: 300px;
-        min-height: 300px;
-    }
+   
     
 }
