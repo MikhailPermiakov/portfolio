@@ -20,6 +20,9 @@
   max-width: 1200px;
   box-shadow: 3px 0 5px gray, -3px 0 5px gray;
 }
+.main {
+  padding-bottom: 32px;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -66,6 +69,22 @@
   padding: 5px 0;
   font-size: 22px;
 }
+
+.row-stack {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #434e5e;
+  border-top: 1px solid #81a3bf;
+  padding: 0 16px 16px 16px;
+}
+.row-stack__item {
+  color: #81a3bf;
+  padding: 16px 16px 0 16px;
+  font-size: 16px;
+}
+
 .project {
   display: flex;
   justify-content: space-around;
@@ -74,11 +93,10 @@
 .image {
   display: flex;
   width: 85%;
-  height: 400px;
-  margin: 15px;
-  border: 1px solid gray;
+  margin: 50px 16px 0 16px;
   border-radius: 5px;
   position: relative;
+  box-shadow: 0 0 10px gray;
 }
 .description {
   display: flex;
